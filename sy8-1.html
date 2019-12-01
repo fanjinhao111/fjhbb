@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy8-1</title>
+<style>
+*{margin:0;padding:0;}
+form{
+	background-color:#666;
+	margin:0 auto;
+	width:560px;
+	padding:20px;
+}
+fieldset{
+	width:520px;
+	padding:20px;
+	margin-bottom:25px;
+}
+td{
+	text-align:right;
+}
+.p1{
+	width:300px;
+}
+p{
+	text-align:center;
+}
+[type="text"],[type="radio"],[type="checked"]{
+	margin-bottom:20px;
+}
+.label{
+	width:20px;
+	display:inline-block;
+}
+.reg{
+	dispaly:inline-block;
+	text-align:center;
+	text-decoration:none;
+	margin:0 auto;
+	background-color:#FFF;
+	width:80px;
+	height:20px;
+}
+</style>
+</head>
+
+<body>
+<form>
+<p>增加快递信息</p>
+<fieldset>
+<legend>发货单</legend>
+<table>
+<tbody>
+<tr>
+<td><label>发货人：<input type="text" name=""></label>
+<label>地址：<input type="text" name=""></label><br>
+<label>电话：<input type="text" name=""></label>
+<label>邮编：<input type="text" name=""></label></td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+<fieldset>
+<legend>收货单</legend>
+<table>
+<tbody>
+<tr>
+<td><label>发货人：<input type="text" name="height"></label>
+<label>地址：<input type="text" name="height"></label><br>
+<label>电话：<input type="text" name="height"></label>
+<label>邮编：<input type="text" name="height"></label><br>
+</td>
+</tr>
+</tbody>
+</table>
+<label>地区：</label>
+<select style="width:200px;">
+<option value="bj">天津</option>
+<option value="tj" selected>北京</option>
+<option value="sh">上海</option>
+<option value="js">江苏</option>
+<option value="zj">浙江</option>
+</select><br>
+<label>包装：</label>
+<label><input name="Fruit" type="checkbox" value=""/>纸箱</label>
+<label><input name="Fruit" type="checkbox" value=""/>木箱</label>
+<label><input name="Fruit" type="checkbox" value=""/>快递袋</label>
+<label><input name="Fruit" type="checkbox" value=""/>其他</label><br>
+<label>付款方式：</label>
+<label><input name="Fruit" type="radio" value=""/>现金</label>
+<label><input name="Fruit" type="radio" value=""/>支付宝</label>
+<label><input name="Fruit" type="radio" value=""/>网银</label>
+<label><input name="Fruit" type="radio" value=""/>ATM</label><br>
+</fieldset>
+<fieldset>
+<legend>货物信息</legend>
+<table>
+<tr>
+<td>
+<label>货物名称：<input type="text" name="height" class="p1"></label><br>
+<label>数量：<input type="text" name="height" class="label"></label>
+<label>重量：<input type="text" name="height" class="label"></label>
+<label>发货时间：<input type="text" name="height"></label>
+</td>
+</tr>
+</table>
+</fieldset>
+<div class="reg">
+<a style="text-decoration:none;" href="#">确定</a>
+<a style="text-decoration:none;" href="#">取消</a>
+</div>
+</form>
+</body>
+</html>
